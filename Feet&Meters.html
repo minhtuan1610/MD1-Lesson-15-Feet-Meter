@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feet and Meter</title>
+
+</head>
+<body>
+<div>
+    <label>
+        Feet:<input id="Feet" onchange="footToMeter(this.value)" oninput="footToMeter(this.value)" type="number">
+    </label>
+    <p>Meters: <span id="outputMeter"></span></p>
+</div>
+<div>
+    <label>
+        Meter:<input id="Meter" onchange="meterToFoot(this.value)" oninput="meterToFoot(this.value)" type="number">
+    </label>
+    <p>Feet: <span id="outputFeet"></span></p>
+</div>
+
+<script src="Feet&Meters.js"></script>
+</body>
+</html>
